@@ -1,0 +1,6 @@
+[tool.pylance]
+# 이 설정은 Pylance가 프로젝트 루트 디렉터리를 기준으로
+# 모듈(예: config, src)을 찾도록 지시합니다.
+# pyproject.toml 파일의 존재 자체만으로도 대부분의 경우
+# 경로 문제가 해결됩니다.
+reportMissingImports = "error"

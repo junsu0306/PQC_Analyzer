@@ -1,0 +1,8 @@
+id,label,name
+aes,Algorithm,AES
+rsa,Algorithm,RSA
+evp_aes,Function,EVP_aes_256_cbc
+sym_enc,Type,Symmetric Encryption
+asym_enc,Type,Asymmetric Encryption
+quantum_attack,Vulnerability,Quantum Attack
+openssl,Library,OpenSSL

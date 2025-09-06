@@ -1,0 +1,17 @@
+#FastAPI 웹 서버 구동을 위한 라이브러리
+fastapi
+uvicorn[standard]
+
+#LangChain 및 Ollama LLM 연동
+langchain
+langchain_community
+ollama
+
+#Neo4j 그래프 데이터베이스 드라이버
+neo4j
+
+#데이터 처리 (CSV 파일 읽기 등)
+pandas
+
+#pydantic은 FastAPI의 의존성 라이브러리이지만, 명시적으로 포함
+pydantic
