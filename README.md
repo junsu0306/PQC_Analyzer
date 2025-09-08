@@ -36,17 +36,11 @@ Graph RAG 기술을 활용하여 소스 코드 내의 비양자내성암호(non-
 3.  **API 서버 실행**
     ```bash
     uvicorn src.api_server:app --reload
-
-
-
-
-
     ```
 
 4.  **API 테스트 (새 터미널에서)**
     ```bash
     # ⬇️ 이 명령어를 복사해서 사용하세요.
-
 curl -X POST "http://127.0.0.1:8000/analyze-code" \
 -H "Content-Type: application/json" \
 -d '{"file_path": "source_to_analyze/risky_app.c"}'
