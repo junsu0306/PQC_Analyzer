@@ -1,7 +1,7 @@
 source,target,relationship
-evp_aes,aes,IMPLEMENTS
-evp_aes,openssl,IS_PART_OF
-aes,sym_enc,IS_A
-rsa,asym_enc,IS_A
-aes,quantum_attack,IS_VULNERABLE_TO
-rsa,quantum_attack,IS_VULNERABLE_TO
+aes_sbox_const,sub_bytes_op,IS_USED_IN
+op_step1,sub_bytes_op,IMPLEMENTS
+sub_bytes_op,aes_round,IS_PART_OF
+process_chunk,op_step1,CALLS
+aes_round,aes,DEFINES_CORE_LOGIC_OF
+aes,non_pqc,IS_CLASSIFIED_AS

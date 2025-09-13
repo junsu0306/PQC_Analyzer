@@ -1,0 +1,20 @@
+[
+  {
+    "clue_id": "aes_sbox_const",
+    "type": "magic_number",
+    "pattern": "637c777bf26b6f",
+    "description": "The first few bytes of the AES S-Box constant, represented as a hex string."
+  },
+  {
+    "clue_id": "op_step1",
+    "type": "keyword",
+    "pattern": "op_step1",
+    "description": "Known obfuscated function name related to byte substitution."
+  },
+  {
+    "clue_id": "process_chunk",
+    "type": "keyword",
+    "pattern": "process_chunk",
+    "description": "Known obfuscated wrapper function for a cryptographic process."
+  }
+]
